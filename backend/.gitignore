@@ -1,0 +1,66 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================
+# Virtual environments
+# ==========================
+venv/
+env/
+.venv/
+
+# ==========================
+# Environment variables / secrets
+# ==========================
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# ==========================
+# Logs / runtime files
+# ==========================
+*.log
+*.tmp
+*.swp
+*.sqlite3
+*.db
+
+# ==========================
+# IDEs / Editors
+# ==========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ==========================
+# OS files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Python package / build
+# ==========================
+*.egg-info/
+dist/
+build/
+*.egg
+__pypackages__/
+
+# ==========================
+# Jupyter Notebooks
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Streamlit / frontend temp
+# ==========================
+.streampyl/
+.streamlit/

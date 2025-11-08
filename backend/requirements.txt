@@ -1,0 +1,24 @@
+fastapi==0.111.1
+uvicorn==0.23.2
+pydantic==2.4.0
+
+requests==2.32.0
+httpx==0.25.0
+python-multipart>=0.0.7
+python-dotenv==1.1.1
+pillow==10.1.0
+
+# ✅ Authentication / Security
+python-jose[crypto]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+
+# ✅ RSS / Parsing
+feedparser==6.0.11
+
+# ✅ MongoDB (REQUIRED)
+motor==3.3.2
+pymongo==4.7.1
+
+# ✅ Optional (for MIME detection)
+python-magic==0.4.27
